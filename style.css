@@ -186,7 +186,35 @@
 .sidePanel {
   background-color: white;
   border-radius: 15px;
+}
+
+.card {
   padding: 15px;
+}
+
+.card-inner-container {
+  border-bottom: 1.5px groove gray;
+  padding-bottom: 15px;
+}
+
+.card-trending {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 5px;
+  padding: 15px;
+}
+
+.card-image {
+  grid-row: 1 / 3;
+}
+
+.main-c2r2 {
+  margin-top: 25px;
+}
+
+.card-user-text {
+  font-weight: bold;
 }
 
 /* SIDE PANEL END */
